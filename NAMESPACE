@@ -1,0 +1,9 @@
+importFrom("NLP", "Annotation", "Annotator", "Simple_Stem_Annotator",
+           "as.String", "next_id", "single_feature")
+importFrom("SnowballC", "wordStem")
+importFrom("qdap", "diversity", "formality", "polarity")
+
+export("QDAP_Diversity_Annotator",
+       "QDAP_Formality_Annotator",
+       "QDAP_Polarity_Annotator",
+       "Snowball_Stem_Annotator")
