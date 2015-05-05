@@ -11,6 +11,8 @@ function()
                    list(list(formality = formality)))
     }
 
-    Annotator(f,
-              "Document formality annotator for English using qdap::formality")
+    description <-
+        "Document formality annotator for English using qdap::formality"
+
+    Annotator(f, list(description = description))
 }

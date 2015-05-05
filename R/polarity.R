@@ -9,6 +9,8 @@ function()
         a
     }
 
-    Annotator(f,
-              "Sentence polarity annotator for English using qdap::polarity")
+    description <-
+        "Sentence polarity annotator for English using qdap::polarity"
+
+    Annotator(f, list(description = description))
 }

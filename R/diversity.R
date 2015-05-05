@@ -11,6 +11,8 @@ function()
                    list(list(diversity = diversity)))
     }
 
-    Annotator(f,
-              "Document diversity annotator for English using qdap::diversity")
+    description <-
+        "Document diversity annotator for English using qdap::diversity"
+
+    Annotator(f, list(description = description))
 }

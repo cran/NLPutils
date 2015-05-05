@@ -5,5 +5,5 @@ function(language = "porter")
     description <-
         sprintf("A Snowball word stem annotator for language '%s'",
                 language)
-    Simple_Stem_Annotator(f, description)
+    Simple_Stem_Annotator(f, list(description = description))
 }

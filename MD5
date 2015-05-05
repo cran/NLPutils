@@ -1,9 +1,9 @@
-e1ee4459d9744c47f7a47c07f458f560 *DESCRIPTION
+032026adc8f2d41864d93b17db46cfec *DESCRIPTION
 8f978020f747a75e137f4abbb6b274f1 *NAMESPACE
-fc65e558c86b3538eadbaee46a521a6a *R/diversity.R
-26eaf12cabf447bfba2615cdb2389154 *R/formality.R
-82a90fa2f3d8edf06acf454c1835b298 *R/polarity.R
-c3525cf5199908fbb47aec71e4f9a872 *R/stem.R
+31c4c3cd4bc9b1a473fd3f7a608f272f *R/diversity.R
+8523881d2f51c2121b20204e23cf1cc7 *R/formality.R
+3193d5f5671dda8c229833f699681404 *R/polarity.R
+f1c7615fa523bb1660dd8a420469be29 *R/stem.R
 884d4fe71edeb8f8fa59c08c843abf08 *R/utils.R
 87d54ba50bd5ef150d885989233b1182 *man/diversity.Rd
 b9f29d1ea2e51e4cc4f6040a1b96d5e6 *man/formality.Rd
