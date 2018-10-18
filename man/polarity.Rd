@@ -19,7 +19,7 @@ QDAP_Polarity_Annotator()
 require("NLP")
 doc <- readRDS(system.file("texts", "stanford.rds", package = "NLP"))
 s <- content(doc)
-a <- annotations(doc)[[1L]]
+a <- annotation(doc)
 
 polarity_annotator <- QDAP_Polarity_Annotator()
 polarity_annotator(s, a)

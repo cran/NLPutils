@@ -19,7 +19,7 @@ QDAP_Formality_Annotator()
 require("NLP")
 doc <- readRDS(system.file("texts", "stanford.rds", package = "NLP"))
 s <- content(doc)
-a <- annotations(doc)[[1L]]
+a <- annotation(doc)
 
 formality_annotator <- QDAP_Formality_Annotator()
 formality_annotator(s, a)

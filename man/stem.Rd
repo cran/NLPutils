@@ -23,7 +23,7 @@ Snowball_Stem_Annotator(language = "porter")
 require("NLP")
 doc <- readRDS(system.file("texts", "stanford.rds", package = "NLP"))
 s <- content(doc)
-a <- annotations(doc)[[1L]]
+a <- annotation(doc)
 
 stem_annotator <- Snowball_Stem_Annotator()
 stem_annotator(s, a)

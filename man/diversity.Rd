@@ -19,7 +19,7 @@ QDAP_Diversity_Annotator()
 require("NLP")
 doc <- readRDS(system.file("texts", "stanford.rds", package = "NLP"))
 s <- content(doc)
-a <- annotations(doc)[[1L]]
+a <- annotation(doc)
 
 diversity_annotator <- QDAP_Diversity_Annotator()
 diversity_annotator(s, a)
